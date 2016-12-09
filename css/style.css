@@ -1,0 +1,501 @@
+/**********************************
+GENERAL at the bottom jake
+***********************************/
+
+body {
+  font-family: 'BioRhyme',  sans-serif;
+}
+
+#wrapper{
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#Contact p{
+color: #2364aa;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin:0 0 1em 0;
+}
+/**********************************
+HEADING 
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+font-family: 'BioRhyme',  sans-serif;
+margin: 15px 0;
+font-size: 4em;
+font-weight: normal;
+line-height: 0.8em;
+}
+
+h2 {
+font-size: 1.75em;
+margin: -5px 0 0;
+font-weight: normal;
+}
+
+/**********************************
+NAVIGATION
+**********************************/
+ nav {
+   text-align: center;
+   padding: 10px 0;
+   margin: 2px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block; 
+}
+
+nav a {
+  font-weight:800;
+  padding: 15px 10px;
+}
+
+/**********************************
+FOOTER
+***********************************/
+ footer {
+   font-size: 0.75em;
+   text-align: center;
+   clear: both;
+   padding-top: 50px;
+   color: #0facf3;
+}
+footer p {
+  color: #0facf3;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  color: #fff;
+}
+
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto 30px;
+  border-radius: 100%;  
+}
+
+p {
+  color: #fff;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+ margin: 0%;
+ padding: 5%;
+ font-size: 0.75em;
+ color: #000
+}
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+#secondary {
+ margin: 0 auto; 
+ text-align: left;
+}
+  
+#secondary h3 {
+  color: #0facf3;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+  color: #0facf3;
+}
+
+.contact-info a{
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  color: #2364AA;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.jpg');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+#diff {
+  margin-left: 10%;
+  color: #2364AA;
+}
+#leadin {
+  text-align: center;
+  color: #0facf3;
+}
+
+#Contact {
+margin-top: 10%;
+}
+
+#disconect {
+margin-top: 10%;
+}
+
+#sep {
+margin-top: 10%;
+}
+
+/**********************************
+PAGE: MINISTRIES
+***********************************/
+
+#min {
+  color: #0facf3;
+  text-align:center;
+}
+
+img {
+  margin: 0 auto;
+}
+
+#texty {
+  float: right;
+  color: black;
+  font-size: 14px;
+}
+
+#one li a {
+  color: black;
+  margin-left:450px;
+  color: #0facf3;
+}
+
+#one {
+  list-style:none;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* red header */
+header {
+  background: #0facf3;
+  border: 2px;
+  border-color: #2364AA;
+}
+
+/* nav background on mobile */
+nav {
+  background: #2364AA;
+}
+
+/* links */
+a {
+  color: #fff;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #fff;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #2364AA;
+}
+/* #00ffcc */
+
+
+.titles {
+    color: #0facf3;
+	font-size: 25px;
+    text-align:center;
+}
+
+
+/**********************************
+SLIDESHOW
+***********************************/
+
+
+
+
+ /* Slideshow container */
+.slideshow-container {
+  max-width: 250px;
+  width: 25%;
+  position: relative;
+  align-self: auto;
+}
+
+/* Next & previous buttons 
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;*/
+}
+
+/* Position the "next button" to the right 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}*/
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators 
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}  */
+
+/*
+.active, .dot:hover {
+  background-color: #717171;
+}
+*/
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.mySlides {
+  margin-left:500px;
+  width: 450px;
+  max-width: 450px;
+  max-height: 316.5;
+  position: relative;
+  align-self: auto;
+}
+
+#welcome {
+  color: #2364aa;
+  text-align: center;
+}
+/*******************************************
+The Jake Space!!!!!!!!!!!!!!
+*******************************************/
+
+.contentbox {
+display:inline-block;
+float:left;
+width:100%;
+  border-bottom-style:double; 
+  border-color: #0facf3;
+  border-bottom-width:thick;
+}
+
+.contentbox_img {
+display:block;
+margin:0 auto;
+  margin-right:113px;
+width:90%;
+
+}
+
+.contentbox_text {
+color:#707070;
+display:block;
+font-family:"Open Sans";
+font-size:1rem;
+margin: 0 auto;
+  margin-left: 10px;
+text-align:justify;
+width:90%;
+padding-left:120px;
+}
+
+.contentbox_text p {
+  padding-left:100px
+}
+
+
+img {
+  
+}
+
+.left {
+    padding-bottom:0;
+
+  border-color:#0facf3;
+  }
+
+.left, p {
+   padding-top: 100px;
+  }
+
+
+
+#fix {
+  padding-top:0px;
+}
+
+h3 {
+color:#707070;
+display:block;
+font-family:"Open Sans";
+font-size:1.2rem;
+margin: 0 auto;
+  margin-left: 10px;
+text-align:justify;
+width:90%;
+padding-left:120px;
+}
+
+.swag {
+      padding-top: 100px;
+}
+
+img {
+  padding-top: 60px;
+}
+
+#notthisone {
+  padding-top: 0px;
+}
+
+.contentbox_text h1 {
+  padding-top: 50px;
+  }
+
+
+.contentbox_text p {
+  border-left-style:solid;
+  border-left-color:red;
+  padding-left:10px;
+  margin-left:100px;
+  border-bottom-left-radius:7px;
+}
+
+hello my name is jakey 
+
+#hello {
+  color: #707070;
+  text-align:center;
+}
+
+#center {
+  margin-left:450px
+}
+
+.rainbow {
+  margin: 0 auto;
+}
+
+#just {
+text-align: center;
+  margin-left: -10px;
+}*/

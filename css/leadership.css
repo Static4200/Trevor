@@ -1,0 +1,288 @@
+/**********************************
+GENERAL
+***********************************/
+
+.w3-content{
+  float: left;
+}
+
+body {
+  font-family: 'BioRhyme',  sans-serif;
+}
+
+#wrapper {
+/*  max-width: 940px;*/
+/*  margin: 0 auto;*/
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin:0 0 1em 0;
+}
+
+/**********************************
+HEADING 
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+font-family: 'BioRhyme',  sans-serif;
+margin: 15px 0;
+font-size: 4em;
+font-weight: normal;
+line-height: 0.8em;
+}
+
+h2 {
+font-size: 1.75em;
+margin: -5px 0 0;
+font-weight: normal;
+}
+
+/**********************************
+NAVIGATION
+**********************************/
+ nav {
+   text-align: center;
+   padding: 10px 0;
+   margin: 2px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block; 
+}
+
+nav a {
+  font-weight:800;
+  padding: 15px 10px;
+}
+
+/**********************************
+CONTENT
+***********************************/
+
+#lead {
+  text-align:center;
+  color:#0facf3;
+  border-top:200px;
+}
+
+#left {
+  float: left;
+  height:250;
+  width:200;
+}
+
+.left {
+  float:left;
+ height:250px;
+  width:200px;
+  padding-bottom: 20%;
+}
+
+ul {
+  list-style:none;
+}
+
+.test {
+  margin: 75px 10px 275px 450px;
+  color: #2364AA;
+}
+
+#1 {
+  margin:;
+}
+
+.contentbox {
+display:inline-block;
+float:left;
+width:100%;
+  border-bottom-style:double; 
+  border-color: #0facf3;
+  border-bottom-width:thick;
+}
+
+.contentbox_img {
+display: block;
+margin:0 auto;
+margin-right: 113px;
+width: 90%;
+
+}
+
+.contentbox_text {
+color:#707070;
+display:block;
+font-family:"Open Sans";
+font-size:1rem;
+margin: 0 auto;
+  margin-left: 10px;
+text-align:justify;
+width:90%;
+padding-left:120px;
+}
+
+.contentbox_text p {
+  padding-left:100px
+}
+
+/**********************************
+FOOTER
+***********************************/
+ footer {
+   font-size: 0.75em;
+   text-align: center;
+   clear: both;
+   padding-top: 50px;
+   color: #0facf3;
+  margin: 0 auto;
+}
+footer p {
+  color: #0facf3;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  color: #fff;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* red header */
+header {
+  background: #0facf3;
+  border-color: #2364AA;
+}
+
+/* nav background on mobile */
+nav {
+  background: #2364AA;
+}
+
+/* logo text */
+h1, h2, h3 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #fff;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #fff;
+}
+/*DO NOT TOUCH EVERYTHING WILL DIE*/
+/*
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+*/
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0facf3;
+    color: #2364AA;
+}
+/* #00ffcc */
+
+
+.titles {
+    color: #0facf3;
+	font-size: 40px;
+    text-align:center;
+}
+
+img {
+  
+}
+
+.left {
+    padding-bottom:0;
+
+  border-color:#0facf3;
+  }
+
+.left, p {
+/*    padding-top: 100px;*/
+  }
+
+
+
+#fix {
+  padding-top:0px;
+}
+
+h3 {
+color:#707070;
+display:block;
+font-family:"Open Sans";
+font-size:1.2rem;
+margin: 0 auto;
+  margin-left: 10px;
+text-align:justify;
+width:90%;
+padding-left:120px;
+}
+
+.swag {
+      padding-top: 100px;
+}
+
+img {
+  padding-top:60px;
+}
+
+#notthisone {
+  padding-top: 0px;
+}
